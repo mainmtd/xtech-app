@@ -1,0 +1,74 @@
+.Login-Field {
+    border:none;
+    background: rgba(90, 198, 235, .25);
+    color: #fdfdfd;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    width: 70%;
+    transition: all .2s linear;
+    display: flex;
+    margin-left: 10%;    
+}
+
+.Login-Field:focus {
+    box-shadow: 0 4px 4px rgba(90, 198, 235, 5);
+    outline: none;
+}
+
+
+
+.Login-Error {
+    color: #ff8080;
+    background: #F2C0CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px auto;
+    height: 40px;
+    border-radius: 5px;
+    border: #FD0D0D 1px solid;
+}
+
+.Login-Btn {
+    background: #FBBB01;
+    color: #10264D;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    width: 90%;
+    height: 50px;
+}
+
+.Login-Btn:hover {
+    cursor: pointer;
+    background: #FFAB01;
+}
+
+.Login-Container {
+    margin: 5% auto;
+    width: 409px;
+    height: 689px;
+    background-color: rgba(231, 234, 250, .95);
+}
+
+.Login-Logo {
+    margin-top: 20%;
+    margin-left:  36%;
+}
+
+.Login-Welcome {
+    color: #10264D;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px auto;
+    text-align: center;
+}
+

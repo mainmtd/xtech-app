@@ -1,0 +1,42 @@
+.SO-Form{
+    
+    height: 662px;
+    width: 50%;
+    margin-left: 27%;
+}
+
+.SO-Field{
+    display: block;
+    margin-top: 10%;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #10264D;
+    background: #D9D6D6;
+    color: #10264D;
+}
+
+.SO-Field::placeholder{
+    color: #10264D;
+}
+
+.SO-Selection{
+    display: block;
+    height: 50px;
+    width: 50%;
+    background: #D9D6D6;
+    color: #10264D;
+    font-size: 16px;
+    margin-top: 5%;
+}
+
+.SO-Button{
+    height: 50px;
+    border: none;
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 7px;
+    color: #10264D;
+    font-weight: bold;
+    background: #DDB469;
+}
