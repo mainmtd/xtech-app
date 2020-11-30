@@ -9,7 +9,7 @@ import logo from '../../images/LogoXTech.png'
 
 const Login = () => {
     const handleSubmit = values => {
-        axios.post('http://localhost:3001/v1/api/auth', values)
+        axios.post(process.env.REACT_APP_API_URL + '/v1/api/auth', values)
             .then(resp => {
                 const {data} = resp;
                 if(data){
